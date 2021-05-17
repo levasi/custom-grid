@@ -1,0 +1,59 @@
+$highlight: #f59c31;
+$dark: #121619;
+$gray: #999999;
+
+.color-highlight {
+  color: $highlight;
+}
+.color-dark {
+  color: $dark;
+}
+.color-gray {
+  color: $gray;
+}
+.color-white {
+  color: white;
+}
+.fs-1 {
+  font-size: 1rem;
+}
+.fs-2 {
+  font-size: 2rem;
+}
+.fs-3 {
+  font-size: 3rem;
+}
+.d-flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.btn-green {
+  color: #fff;
+  background: #91b842;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+}
+.btn-highlight {
+  color: #fff;
+  background: $highlight;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+}
+.py-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.py-60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
